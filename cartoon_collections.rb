@@ -11,8 +11,8 @@ def summon_captain_planet(elements)
 end
 
 def long_planeteer_calls(words)
-  words.all?{ |word|
-    word.size >= 4
+  words.all?{ |x|
+    x.size >= 4
   }
 end
 
